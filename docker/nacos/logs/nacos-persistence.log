@@ -1,0 +1,2 @@
+2024-07-01 08:51:23,032 WARN [master-db] jdbc:mysql://ruoyi-mysql:3306/ry-config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+

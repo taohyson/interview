@@ -1,0 +1,136 @@
+2024-07-01 00:00:30,008 INFO [PUSH-SUCC] 4ms, all delay time 556ms, SLA 556ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:00:48,682 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=21}
+
+2024-07-01 00:00:49,148 INFO [PUSH-SUCC] 17ms, all delay time 540ms, SLA 540ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:00:49,238 INFO [PUSH-SUCC] 7ms, all delay time 554ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:00:49,241 INFO [PUSH-SUCC] 9ms, all delay time 557ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 00:00:49,242 INFO [PUSH-SUCC] 10ms, all delay time 558ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2024-07-01 00:00:49,244 INFO [PUSH-SUCC] 8ms, all delay time 560ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 00:01:10,307 INFO [PUSH-SUCC] 42ms, all delay time 616ms, SLA 616ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:03:16,888 INFO [PUSH-SUCC] 19ms, all delay time 600ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:04:36,097 INFO [PUSH-SUCC] 8ms, all delay time 527ms, SLA 527ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:04:55,782 INFO [PUSH-SUCC] 58ms, all delay time 568ms, SLA 568ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:06:35,582 INFO [PUSH-SUCC] 7ms, all delay time 532ms, SLA 532ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:06:54,107 INFO [PUSH-SUCC] 6ms, all delay time 550ms, SLA 550ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:07:40,792 INFO [PUSH-SUCC] 20ms, all delay time 586ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:08:08,724 INFO [PUSH-SUCC] 4ms, all delay time 513ms, SLA 513ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:08:29,862 INFO [PUSH-SUCC] 5ms, all delay time 603ms, SLA 604ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:08:46,304 INFO [PUSH-SUCC] 17ms, all delay time 583ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:09:00,712 INFO [PUSH-SUCC] 5ms, all delay time 586ms, SLA 586ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=12}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:09:19,142 INFO [PUSH-SUCC] 5ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:09:41,394 INFO [PUSH-SUCC] 19ms, all delay time 557ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:12:22,021 INFO [PUSH-SUCC] 6ms, all delay time 559ms, SLA 559ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=14}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:13:22,593 INFO [PUSH-SUCC] 7ms, all delay time 559ms, SLA 559ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:13:44,238 INFO [PUSH-SUCC] 17ms, all delay time 539ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:19:55,874 INFO [PUSH-SUCC] 5ms, all delay time 512ms, SLA 512ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=16}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:20:16,206 INFO [PUSH-SUCC] 6ms, all delay time 557ms, SLA 557ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:21:00,570 INFO [PUSH-SUCC] 5ms, all delay time 505ms, SLA 505ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:21:25,207 INFO [PUSH-SUCC] 6ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 00:21:38,746 INFO [PUSH-SUCC] 19ms, all delay time 604ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-07-01 00:23:16,481 INFO [PUSH-SUCC] 9ms, all delay time 602ms, SLA 603ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gen', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:23:19,181 INFO [PUSH-SUCC] 5ms, all delay time 520ms, SLA 520ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:23:19,183 INFO [PUSH-SUCC] 8ms, all delay time 522ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 00:23:19,184 INFO [PUSH-SUCC] 8ms, all delay time 523ms, SLA 523ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 08:51:56,267 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}
+
+2024-07-01 08:51:56,772 INFO [PUSH-SUCC] 29ms, all delay time 591ms, SLA 593ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 08:52:27,098 INFO [PUSH-SUCC] 7ms, all delay time 582ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 08:52:27,100 INFO [PUSH-SUCC] 9ms, all delay time 583ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-auth', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 08:52:57,047 INFO [PUSH-SUCC] 7ms, all delay time 529ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 08:55:44,010 INFO [PUSH-SUCC] 27ms, all delay time 592ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 08:57:30,981 INFO [PUSH-SUCC] 24ms, all delay time 540ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 09:12:20,274 INFO [PUSH-SUCC] 10ms, all delay time 531ms, SLA 531ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:12:39,910 INFO [PUSH-SUCC] 6ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:14:50,298 INFO [PUSH-SUCC] 17ms, all delay time 613ms for subscriber 192.168.1.4, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-07-01 09:47:03,884 INFO [PUSH-SUCC] 9ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:47:25,814 INFO [PUSH-SUCC] 5ms, all delay time 551ms, SLA 552ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:47:39,834 INFO [PUSH-SUCC] 6ms, all delay time 517ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:48:32,014 INFO [PUSH-SUCC] 6ms, all delay time 603ms, SLA 603ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:49:04,676 INFO [PUSH-SUCC] 17ms, all delay time 524ms, SLA 525ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:49:21,996 INFO [PUSH-SUCC] 8ms, all delay time 575ms, SLA 575ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:49:56,352 INFO [PUSH-SUCC] 15ms, all delay time 518ms, SLA 518ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:50:15,375 INFO [PUSH-SUCC] 8ms, all delay time 535ms, SLA 535ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:51:44,707 INFO [PUSH-SUCC] 13ms, all delay time 596ms, SLA 596ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=12}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:52:00,019 INFO [PUSH-SUCC] 5ms, all delay time 561ms, SLA 561ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:53:19,539 INFO [PUSH-SUCC] 12ms, all delay time 600ms, SLA 600ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=14}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:53:38,262 INFO [PUSH-SUCC] 7ms, all delay time 579ms, SLA 579ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:53:48,176 INFO [PUSH-SUCC] 6ms, all delay time 510ms, SLA 510ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=16}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:54:06,907 INFO [PUSH-SUCC] 9ms, all delay time 545ms, SLA 545ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:55:46,253 INFO [PUSH-SUCC] 16ms, all delay time 583ms, SLA 583ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:56:02,769 INFO [PUSH-SUCC] 6ms, all delay time 511ms, SLA 511ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:56:11,382 INFO [PUSH-SUCC] 7ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=20}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:56:34,014 INFO [PUSH-SUCC] 4ms, all delay time 601ms, SLA 602ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:56:43,029 INFO [PUSH-SUCC] 5ms, all delay time 578ms, SLA 578ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=22}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:57:01,755 INFO [PUSH-SUCC] 4ms, all delay time 593ms, SLA 593ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=23}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:57:10,369 INFO [PUSH-SUCC] 6ms, all delay time 594ms, SLA 594ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=24}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:57:27,594 INFO [PUSH-SUCC] 7ms, all delay time 604ms, SLA 604ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 09:57:47,626 INFO [PUSH-SUCC] 9ms, all delay time 555ms, SLA 555ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=26}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 09:58:03,249 INFO [PUSH-SUCC] 9ms, all delay time 538ms, SLA 538ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=27}, originalSize=1, DataSize=1, target=192.168.1.4
+
+2024-07-01 10:15:03,672 INFO [PUSH-SUCC] 9ms, all delay time 529ms, SLA 529ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-asset', ephemeral=true, revision=28}, originalSize=0, DataSize=0, target=192.168.1.4
+
+2024-07-01 10:15:06,579 INFO [PUSH-SUCC] 11ms, all delay time 519ms, SLA 519ms, Service{namespace='public', group='DEFAULT_GROUP', name='ruoyi-system', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.1.4
+

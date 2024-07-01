@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.ruoyiasset.mapper.AssetMapper">
+    
+    <resultMap type="Asset" id="AssetResult">
+        <result property="id"    column="id"    />
+        <result property="personId"    column="person_id"    />
+        <result property="symbol"    column="symbol"    />
+        <result property="name"    column="name"    />
+        <result property="currency"    column="currency"    />
+        <result property="amount"    column="amount"    />
+        <result property="lastPrice"    column="last_price"    />
+        <result property="account"    column="account"    />
+    </resultMap>
+
+    <sql id="selectAssetVo">
+        select id, person_id, symbol, name, currency, amount, last_price from asset
+    </sql>
+
+    <select id="selectAssetList" parameterType="Asset" resultMap="AssetResult">
+        select a.id, person_id, symbol, a.name, currency, amount, last_price, account from asset a left join person p on a.person_id=p.id
+        <where>  
+            <if test="personId != null "> and person_id = #{personId}</if>
+            <if test="symbol != null  and symbol != ''"> and symbol = #{symbol}</if>
+            <if test="account != null  and account != ''"> and account = #{account}</if>
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+            <if test="currency != null  and currency != ''"> and currency = #{currency}</if>
+            <if test="amount != null "> and amount = #{amount}</if>
+            <if test="lastPrice != null "> and last_price = #{lastPrice}</if>
+        </where>
+    </select>
+    
+    <select id="selectAssetById" parameterType="Long" resultMap="AssetResult">
+        select a.id, person_id, symbol, a.name, currency, amount, last_price, account from asset a left join person p on a.person_id=p.id
+        where a.id = #{id}
+    </select>
+
+    <insert id="insertAsset" parameterType="Asset" useGeneratedKeys="true" keyProperty="id">
+        insert into asset
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="personId != null">person_id,</if>
+            <if test="symbol != null and symbol != ''">symbol,</if>
+            <if test="name != null and name != ''">name,</if>
+            <if test="currency != null and currency != ''">currency,</if>
+            <if test="amount != null">amount,</if>
+            <if test="lastPrice != null">last_price,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="personId != null">#{personId},</if>
+            <if test="symbol != null and symbol != ''">#{symbol},</if>
+            <if test="name != null and name != ''">#{name},</if>
+            <if test="currency != null and currency != ''">#{currency},</if>
+            <if test="amount != null">#{amount},</if>
+            <if test="lastPrice != null">#{lastPrice},</if>
+        </trim>
+    </insert>
+
+    <update id="updateAsset" parameterType="Asset">
+        update asset
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="personId != null">person_id = #{personId},</if>
+            <if test="symbol != null and symbol != ''">symbol = #{symbol},</if>
+            <if test="name != null and name != ''">name = #{name},</if>
+            <if test="currency != null and currency != ''">currency = #{currency},</if>
+            <if test="amount != null">amount = #{amount},</if>
+            <if test="lastPrice != null">last_price = #{lastPrice},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteAssetById" parameterType="Long">
+        delete from asset where id = #{id}
+    </delete>
+
+    <delete id="deleteAssetByIds" parameterType="String">
+        delete from asset where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="selectSymbolList"  >
+        select symbol from asset  group by symbol
+    </select>
+</mapper>

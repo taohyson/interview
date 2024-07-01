@@ -1,0 +1,60 @@
+2024-07-01 08:51:24,724 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-gen-dev.yml+DEFAULT_GROUP, newMd5=eb592420b3fceae1402881887b8a6a0d,oldMd5=
+
+2024-07-01 08:51:24,730 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-auth-dev.yml+DEFAULT_GROUP, newMd5=8bd9dada9a94822feeab40de55efced6,oldMd5=
+
+2024-07-01 08:51:24,730 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-monitor-dev.yml+DEFAULT_GROUP, newMd5=6f122fd2bfb8d45f858e7d6529a9cd44,oldMd5=
+
+2024-07-01 08:51:24,730 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-file-dev.yml+DEFAULT_GROUP, newMd5=5382b93f3d8059d6068c0501fdd41195,oldMd5=
+
+2024-07-01 08:51:24,729 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-job-dev.yml+DEFAULT_GROUP, newMd5=edcf0e3fe13fea07b4ec08b1088f30b3,oldMd5=
+
+2024-07-01 08:51:24,729 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-gateway-dev.yml+DEFAULT_GROUP, newMd5=f84dd895556d4fcf15003e20e1bdf48b,oldMd5=
+
+2024-07-01 08:51:24,729 INFO [dump] md5 changed, save to disk cache ,groupKey=application-dev.yml+DEFAULT_GROUP, newMd5=58dde4e3760499d3bac2d77a3a1e9018,oldMd5=
+
+2024-07-01 08:51:24,725 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-system-dev.yml+DEFAULT_GROUP, newMd5=00678c89684ec0b825cb9b71e032db64,oldMd5=
+
+2024-07-01 08:51:24,817 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=application-dev.yml+DEFAULT_GROUP, newMd5=58dde4e3760499d3bac2d77a3a1e9018,oldMd5=,lastModifiedTs=1701677303000
+
+2024-07-01 08:51:24,817 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-file-dev.yml+DEFAULT_GROUP, newMd5=5382b93f3d8059d6068c0501fdd41195,oldMd5=,lastModifiedTs=1608584519000
+
+2024-07-01 08:51:24,824 INFO [dump-all-ok] application-dev.yml+DEFAULT_GROUP, 1701677303000, length=571,md5UTF8=58dde4e3760499d3bac2d77a3a1e9018
+
+2024-07-01 08:51:24,816 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-system-dev.yml+DEFAULT_GROUP, newMd5=00678c89684ec0b825cb9b71e032db64,oldMd5=,lastModifiedTs=1701676288000
+
+2024-07-01 08:51:24,817 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-gateway-dev.yml+DEFAULT_GROUP, newMd5=f84dd895556d4fcf15003e20e1bdf48b,oldMd5=,lastModifiedTs=1719742313000
+
+2024-07-01 08:51:24,826 INFO [dump-all-ok] ruoyi-system-dev.yml+DEFAULT_GROUP, 1701676288000, length=1537,md5UTF8=00678c89684ec0b825cb9b71e032db64
+
+2024-07-01 08:51:24,817 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-monitor-dev.yml+DEFAULT_GROUP, newMd5=6f122fd2bfb8d45f858e7d6529a9cd44,oldMd5=,lastModifiedTs=1664419734000
+
+2024-07-01 08:51:24,818 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-gen-dev.yml+DEFAULT_GROUP, newMd5=eb592420b3fceae1402881887b8a6a0d,oldMd5=,lastModifiedTs=1664419782000
+
+2024-07-01 08:51:24,816 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-job-dev.yml+DEFAULT_GROUP, newMd5=edcf0e3fe13fea07b4ec08b1088f30b3,oldMd5=,lastModifiedTs=1664419850000
+
+2024-07-01 08:51:24,817 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-auth-dev.yml+DEFAULT_GROUP, newMd5=8bd9dada9a94822feeab40de55efced6,oldMd5=,lastModifiedTs=1664419722000
+
+2024-07-01 08:51:24,825 INFO [dump-all-ok] ruoyi-file-dev.yml+DEFAULT_GROUP, 1608584519000, length=362,md5UTF8=5382b93f3d8059d6068c0501fdd41195
+
+2024-07-01 08:51:24,825 INFO [dump] md5 changed, save to disk cache ,groupKey=sentinel-ruoyi-gateway+DEFAULT_GROUP, newMd5=9f3a3069261598f74220bc47958ec252,oldMd5=
+
+2024-07-01 08:51:24,826 INFO [dump-all-ok] ruoyi-gateway-dev.yml+DEFAULT_GROUP, 1719742313000, length=1582,md5UTF8=f84dd895556d4fcf15003e20e1bdf48b
+
+2024-07-01 08:51:24,828 INFO [dump-all-ok] ruoyi-monitor-dev.yml+DEFAULT_GROUP, 1664419734000, length=133,md5UTF8=6f122fd2bfb8d45f858e7d6529a9cd44
+
+2024-07-01 08:51:24,828 INFO [dump] md5 changed, save to disk cache ,groupKey=ruoyi-asset-dev.yml+DEFAULT_GROUP, newMd5=e0f84e29241826a3ece284eb38883165,oldMd5=
+
+2024-07-01 08:51:24,840 INFO [dump-all-ok] ruoyi-job-dev.yml+DEFAULT_GROUP, 1664419850000, length=603,md5UTF8=edcf0e3fe13fea07b4ec08b1088f30b3
+
+2024-07-01 08:51:24,840 INFO [dump-all-ok] ruoyi-gen-dev.yml+DEFAULT_GROUP, 1664419782000, length=815,md5UTF8=eb592420b3fceae1402881887b8a6a0d
+
+2024-07-01 08:51:24,841 INFO [dump-all-ok] ruoyi-auth-dev.yml+DEFAULT_GROUP, 1664419722000, length=66,md5UTF8=8bd9dada9a94822feeab40de55efced6
+
+2024-07-01 08:51:24,841 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=sentinel-ruoyi-gateway+DEFAULT_GROUP, newMd5=9f3a3069261598f74220bc47958ec252,oldMd5=,lastModifiedTs=1605830400000
+
+2024-07-01 08:51:24,842 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=ruoyi-asset-dev.yml+DEFAULT_GROUP, newMd5=e0f84e29241826a3ece284eb38883165,oldMd5=,lastModifiedTs=1719744876000
+
+2024-07-01 08:51:24,843 INFO [dump-all-ok] sentinel-ruoyi-gateway+DEFAULT_GROUP, 1605830400000, length=715,md5UTF8=9f3a3069261598f74220bc47958ec252
+
+2024-07-01 08:51:24,843 INFO [dump-all-ok] ruoyi-asset-dev.yml+DEFAULT_GROUP, 1719744876000, length=1541,md5UTF8=e0f84e29241826a3ece284eb38883165
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.ruoyiasset.mapper.PersonMapper">
+    
+    <resultMap type="Person" id="PersonResult">
+        <result property="id"    column="id"    />
+        <result property="account"    column="account"    />
+        <result property="name"    column="name"    />
+    </resultMap>
+
+    <sql id="selectPersonVo">
+        select id, account, name from person
+    </sql>
+
+    <select id="selectPersonList" parameterType="Person" resultMap="PersonResult">
+        <include refid="selectPersonVo"/>
+        <where>  
+            <if test="account != null  and account != ''"> and account = #{account}</if>
+            <if test="name != null  and name != ''"> and name like concat('%', #{name}, '%')</if>
+        </where>
+    </select>
+    
+    <select id="selectPersonById" parameterType="Long" resultMap="PersonResult">
+        <include refid="selectPersonVo"/>
+        where id = #{id}
+    </select>
+
+    <insert id="insertPerson" parameterType="Person">
+        insert into person
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">id,</if>
+            <if test="account != null and account != ''">account,</if>
+            <if test="name != null and name != ''">name,</if>
+         </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">#{id},</if>
+            <if test="account != null and account != ''">#{account},</if>
+            <if test="name != null and name != ''">#{name},</if>
+         </trim>
+    </insert>
+
+    <update id="updatePerson" parameterType="Person">
+        update person
+        <trim prefix="SET" suffixOverrides=",">
+            <if test="account != null and account != ''">account = #{account},</if>
+            <if test="name != null and name != ''">name = #{name},</if>
+        </trim>
+        where id = #{id}
+    </update>
+
+    <delete id="deletePersonById" parameterType="Long">
+        delete from person where id = #{id}
+    </delete>
+
+    <delete id="deletePersonByIds" parameterType="String">
+        delete from person where id in 
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+</mapper>
