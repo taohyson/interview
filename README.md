@@ -52,10 +52,21 @@ com.ruoyi
 
 <table>
     <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/1cbcf0e6f257c7d3a063c0e3f2ff989e4b3.jpg"/></td>
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/requirement.jpg?raw=true"/></td>
+         <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
     </tr>
-  
+   <tr>
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/asset_list_image.png?raw=true"/></td>   
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/asset_add_image.png?raw=true"/></td>
+    </tr>
+     <tr>
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/asset_update_image.png?raw=true"/></td>   
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/redis_iamge_code_image.png?raw=true"/></td>
+    </tr>
+       <tr>
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/webSocker_code_image.png?raw=true"/></td>   
+        <td><img src="https://github.com/taohyson/interview/blob/main/md-images/third_docker_image.png?raw=true"/></td>
+    </tr>
 </table>
 
 
